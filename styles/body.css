@@ -1,0 +1,91 @@
+.apresentacao,
+.curiosidades__oOvo,
+.curiosidades__habitat,
+.curiosidades__videoSobreOMaleo,
+.fradinho,
+.aveDoParaiso,
+.faisaoDourado {
+    color: var(--preto);
+    text-align: center;
+    padding: 1.5em 1em;
+}
+
+.apresentacao__titulo,
+.curiosidades__titulo,
+.fradinho__titulo,
+.aveDoParaiso__titulo,
+.faisaoDourado__titulo {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+    text-transform: uppercase; 
+}
+
+.apresentacao__texto,
+.curiosidades__texto,
+.fradinho__texto,
+.aveDoParaiso__texto,
+.faisaoDourado__texto {
+    color: var(--preto);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 1em 0;
+    text-align: justify;
+    text-indent: 4em;
+}
+
+@media screen and (min-width: 1024px) {
+    .curiosidades__titulo,
+    .curiosidades__titulo,
+    .apresentacao__titulo,
+    .fradinho__titulo,
+    .aveDoParaiso__titulo,
+    .faisaoDourado__titulo {        
+        font-size: 24px; ;
+    }
+    .curiosidades__mapa,
+    .curiosidades__video,
+    .img-maleo,
+    .img-fradinho,
+    .img-aveDoParaiso {
+        width: 50em;
+        height: 50em;
+    }
+
+    .img-Ovo {
+        width: 30em;
+        height: 20em;
+    }
+
+    .apresentacao__texto,
+    .fradinho__texto,
+    .curiosidades__texto,
+    .aveDoParaiso__texto,
+    .faisaoDourado__texto {
+        color: var(--preto);
+        font-size: 18px;
+        font-weight: 400;        
+        margin: 2em 5.2em;        
+        text-align: justify;
+        text-indent: 4em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .curiosidades__titulo,
+    .curiosidades__titulo,
+    .apresentacao__titulo,
+    .fradinho__titulo,
+    .aveDoParaiso__titulo,
+    .faisaoDourado__titulo {        
+        font-size: 30px; ;
+    }
+
+    .apresentacao__texto,
+    .curiosidades__texto,
+    .fradinho__texto,
+    .aveDoParaiso__texto,
+    .faisaoDourado__texto {
+        font-size: 22px;
+    }    
+}

@@ -1,0 +1,111 @@
+.formulario { 
+	width: 100%;
+	height: 100%;   
+    color: var(--preto);
+    text-align: center;
+}
+
+form {
+	margin: 0 20%;
+	padding: 2%;
+}
+
+form label, form legend {
+	display: inline-block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {	
+    border-radius: 10px;    
+	margin: 0 0 20px;	
+	padding: 1em;
+	width: 100%;
+}
+
+select {
+    margin: 0 40%;
+    padding: 5px;
+    font-size: 20px;        
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    bottom: 45px;
+    right: 30px;
+    border-radius: 5px;
+}
+
+
+.checkbox {
+	padding: 2%;
+	margin-bottom: 30%
+}
+
+.enviar {
+    text-align: center;
+	width: 70%;	
+	padding: 2em;	
+	background: #5BB318;
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+	border: none;
+	border-radius: 10px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkgreen;
+	transform: rotate(360deg) scale(1.2);
+}
+
+.funcionamento {
+	width: 100%;
+	height: 100%;
+	margin-top: 20%;      
+    border-radius: 30px;
+	overflow: hidden;	
+}
+
+table {
+	width: 90%;
+	margin:auto;		
+	font-size: 20px;
+	text-align: center;
+	top: 50%;	
+	bottom: 50%;	
+	border-top-left-radius: 30px;
+    border-top-right-radius: 30px;    
+    overflow: hidden;	
+}
+
+thead {
+	background: var(--preto);
+	color: white;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+.containerSugestao {	
+	text-align: center;	
+	padding: 0.5em;	
+}
+
+
+.containerSugestao__select {
+	margin-top: 1em;
+	
+}
+
+@media screen and (min-width: 1024px) {
+	.enviar {
+		width: 70%;
+		padding: 2em;
+		font-size: 22px;
+	}
+}
+

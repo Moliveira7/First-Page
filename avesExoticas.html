@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aves Exóticas</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <header class="cabecalho">
+        <input type="checkbox" id="menu" class="container__botao">
+        <label for="menu">
+            <span class="cabecalho__menu-pages container__alinha"></span>
+        </label>
+        <ul class="lista-menu">
+            <li class="lista-menu__titulo">Categorias</li>
+            <li class="lista-menu__item">
+                <a href="./index.html" class="container__alinha lista-menu__link">O Maleo</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="./avesExoticas.html" class="container__alinha lista-menu__link">Aves Exóticas</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="./contatos.html" class="container__alinha lista-menu__link">Contatos</a>
+            </li>
+        </ul>
+
+        <div class="container">            
+            <img src="img/Nature.svg" width="auto" height="100px" alt="Logo da Nature" class="container__alinha">
+        </div>
+    </header>
+    <section class="fradinho">
+        <h2 class="fradinho__titulo">Fradinho</h2>
+        <h2 class="fradinho__titulo"><em>(Fratercula artica)</em></h2>
+        <div>
+            <img class="img-fradinho" src="./img/fradinho.png" width="100%" height="60%" alt="foto da ave fradinho"> 
+        </div>
+        <p class="fradinho__texto">          
+            Também conhecido como o "papagaio-do-mar", este é o único membro da sua espécie a 
+            habitar o Atlântico. O fradinho vive a maior parte da vida no mar, descansando sobre
+            as ondas.No entanto, eles retornam á terra durante a primavera e o verão para formar 
+            colônias de reprodução.
+            Os fradinhos são surpreendentes na hora de voar, batendo asas até 400 vezes por 
+            minutos e chegando em velocidade de até 88,5 km por hora.Sabia que os fradinhos tiveram
+            um papel importante na inspiração de <em>Star Wars: Os Últimos Jedi</em> essa ave marinha
+            tem uma comunidade enorme na ilha de Skellig Michael, localização real do fictício Ahch-To,
+            o planeta de exílio sw Luke Skywalker.Os fradinhos conquistaram o coração da produção de 
+            Star Wars e foram uma inspiração para criação dos Porgs, criaturas do imaginário da franquia.            
+        </p>
+    </section>
+    <section class="aveDoParaiso">
+        <h2 class="aveDoParaiso__titulo">Ave-do-paraíso de Wilson</h2>
+        <h2 class="aveDoParaiso__titulo"><em>(Cicinnurus respublica)</em></h2>
+        <div>
+            <img class="img-aveDoParaiso" src="./img/ave-do-paraiso-de-wilson.png" width="100%" height="60%" 
+            alt="foto da ave do paraíso de Wilson"> 
+        </div>
+        <p class="aveDoParaiso__texto">
+            A ave-do-paraiso de Wilson é sem dúvida umas das aves mais interessantes dessa lista, tanto pela cauda
+            diferenciada, como por sua fascinante de cores, que não se limitam ás suas plumas: a parte turquesa da
+            cabeça dessa ave é sua pele! Porém, essas cores fascinantes são exclusivas dos machos, visto que as 
+            fêmeas possuem plumas marrons. Os machos usam suas cores, juntamente com uma dança elaborada, para 
+            impressionar as fêmeas, que ficam sentadas assintindo o espetáculo.
+            Essas aves são membros da família Paradisaeidae, e a maioria das espécies desta fámilia são encontradas
+            na ilha da Nova Guiné e no leste da Austrália.
+        </p>
+    </section>
+    <section class="faisaoDourado">
+        <h2 class="faisaoDourado__titulo">Faisão-dourado</h2>
+        <h2 class="faisaoDourado__titulo">(Chrysolophus pictus)</h2>
+
+        <section class="carrossel">
+            
+            <div class="swiper">
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">            
+            <div class="swiper-slide"><img src="img/faisao.png" alt="imagem do faisão dourado"></div>
+            <div class="swiper-slide"><img src="img/femeaFaisao.png" alt="imagem do faisão fêmea"></div>
+            <div class="swiper-slide"><img src="img/tiposDeFaisao.png" alt="imagem de algumas espécies de faisão"></div>
+                        
+            </div>        
+            
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>       
+
+        </section>
+        
+
+        <p class="faisaoDourado__texto">
+            Também conhecido como "faisão chinês", esse pássaro exótico e colorido é nativo do oeste da China. 
+            No entanto, populações selvagens podem ser encontradas no Reino Unido e em outros lugares do mundo.
+            O macho(na 1ª foto acima) e a fêmea(na 2ª foto acima) desta espécie são completamente diferentes, 
+            enquanto os machos possuem cores vivas,com uma crista dourada e corpo vermelho, roxo e amarelo 
+            brilhante, a maior parte da plumagem das fêmeas é marrom, existem faisões de outras especies
+            (como mostra na 3ª foto acima).
+        </p>
+
+    </section>
+
+    <footer class="rodape">
+        <img class="rodape__logo" src="./img/Logo_Md2One.svg" width="20%" height="20%" alt="Logo Md2One">
+        <p class="rodape__copyright">&copy; Copyright Miqueias dOliveira - 2023
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {            
+            spaceBetween: 10,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>    
+</body>
+</html>

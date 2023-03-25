@@ -1,0 +1,26 @@
+@import url("styles/header.css");
+@import url("styles/body.css");
+@import url("styles/carrossel.css");
+@import url("styles/rodape.css");
+@import url("styles/contatos.css");
+
+:root {
+    --verde-gradiente: linear-gradient(#5BB318, darkgreen);
+    --azul-gradiente: linear-gradient(to right, darkblue, black);
+    --preto-degrade: linear-gradient(97.54deg, #000000 35.49%, #696969 165.37%);
+    --amarelo: #EAE509;
+    --branco: #FFFFFF;
+    --preto: #000;
+    --azul: #6C63FF;
+    --cinza: #4F4F4F;
+    --fonte-principal: "Poppins";
+    
+}
+
+body {
+    background-color: var(--amarelo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contatos</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <header class="cabecalho">
+        
+        <input type="checkbox" id="menu" class="container__botao">
+        <label for="menu">
+            <span class="cabecalho__menu-pages container__alinha"></span>
+        </label>
+        <ul class="lista-menu">
+            <li class="lista-menu__titulo">Categorias</li>
+            <li class="lista-menu__item">
+                <a href="./index.html" class="container__alinha lista-menu__link">O Maleo</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="./avesExoticas.html" class="container__alinha lista-menu__link">Aves Exóticas</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="./contatos.html" class="container__alinha lista-menu__link">Contatos</a>
+            </li>
+        </ul>
+
+        <div class="container">            
+            <img src="img/Nature.svg" width="auto" height="100px" alt="Logo da Nature" class="container__alinha">
+        </div>
+    </header>   
+
+    <div class="formulario">
+        <form>            
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>				
+            </fieldset>
+
+            <fieldset >
+                <div class="containerSugestao">
+                    <legend class="containerSugestao__legend">Qual grupo de animal gostariam<br> de ver alguma curiosidade?</legend>
+                </div>
+                <div class="containerSugestao">
+                    <select class="containerSugestao__select">
+                        <option>Anfíbios</option>
+                        <option>Mamíferos</option>
+                        <option>Peixes</option>
+                        <option>Répteis</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas<br> novidades por email?</label>		
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+        </form>
+</div>
+
+<div class="funcionamento">
+    <table>
+        <thead>
+            <tr>					
+                <th colspan="2">Funcionamento</th>					
+            </tr>
+            <tr>
+                <th>Dia</th>
+                <th>Horário</th>
+            </tr>				
+        </thead>
+        <tbody>
+            <tr>
+                <td>Segunda</td>
+                <td>9h ás 17h</td>
+            </tr>
+            <tr>
+                <td>Quarta</td>
+                <td>9h ás 17h</td>
+            </tr>
+            <tr>
+                <td>Sexta</td>
+                <td>9h ás 17h</td>
+            </tr>
+            <tr>
+                <td>Sábado</td>
+                <td>9h ás 12h</td>
+            </tr>					
+        </tbody>			
+    </table>
+</div>
+
+   
+
+    <footer class="rodape">
+        <img class="rodape__logo" src="./img/Logo_Md2One.svg" width="20%" height="20%" alt="Logo Md2One">
+        <p class="rodape__copyright">&copy; Copyright Miqueias dOliveira - 2023
+    </footer>
+</body>
+</html>
