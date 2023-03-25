@@ -40,3 +40,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 [<img src="https://user-images.githubusercontent.com/79464488/227403813-ee4aa30f-fa86-443e-a9b2-6a056945c377.jpeg" width=115><br><sub>Miqueias dOliveira</sub>](https://github.com/Moliveira7)
 
+
